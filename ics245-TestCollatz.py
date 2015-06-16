@@ -77,7 +77,7 @@ class TestCollatz (TestCase) :
         v = cycle_length (3)
         self.assertEqual(8, v)
 
-    def test_cycle_3(self) :
+    def test_cycle_4(self) :
         v = cycle_length (1)
         self.assertEqual(1, v)
     
